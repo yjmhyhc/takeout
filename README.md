@@ -1,0 +1,1 @@
+you can choose to read a Chinese version[README 中文版.md](https://github.com/yjmhyhc/takeout/files/9949967/README.md) or an English version[README english version.md](https://github.com/yjmhyhc/takeout/files/9950039/README.english.version.md) of introduction.
