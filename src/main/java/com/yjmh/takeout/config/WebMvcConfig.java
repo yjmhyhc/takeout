@@ -59,16 +59,16 @@ public class WebMvcConfig extends WebMvcConfigurationSupport {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.itheima.reggie.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.yjmh.takeout.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("瑞吉外卖")
+                .title("yjmh外卖")
                 .version("1.0")
-                .description("瑞吉外卖接口文档")
+                .description("yjmh外卖接口文档")
                 .build();
     }
 }
